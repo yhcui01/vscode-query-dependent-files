@@ -1,0 +1,1 @@
+command(ctrl) + shift  + p  => Find File Dependencies => Query the content of the associated file （<html>） =>   Generate a search file associated with this file (index.html)

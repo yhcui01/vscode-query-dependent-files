@@ -1,0 +1,28 @@
+{
+	"name": "find-file-dependencies",
+	"displayName": "Find File Dependencies",
+	"description": "Finds all file dependencies based on import statements.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"activationEvents": [
+		"onCommand:extension.findDependencies"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.findDependencies",
+				"title": "Find File Dependencies"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "echo 'No compile step needed for JavaScript.'"
+	},
+	"devDependencies": {
+		"vscode": "^1.1.37"
+	}
+}
